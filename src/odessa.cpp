@@ -108,8 +108,6 @@ void setupDisplay() {
   // int height = PANEL_RES_Y;
   // int chain = PANEL_CHAIN;
 
-  // Initialize the display object from the DMD library
-  display = new DMD_RGB<1, 64, 64, 1, 1, COLOR_4BITS>(mux_list, DMD_PIN_nOE, DMD_PIN_SCLK, custom_rgbpins, DISPLAYS_ACROSS, DISPLAYS_DOWN);
 
 
   // Set up your panel's GPIO pins, as required by your configuration
